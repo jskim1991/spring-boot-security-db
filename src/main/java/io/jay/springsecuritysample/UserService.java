@@ -44,7 +44,7 @@ public class UserService implements UserDetailsService {
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
         simpleMailMessage.setTo(userMail);
         simpleMailMessage.setSubject("Mail Confirmation Link");
-        simpleMailMessage.setFrom("tensaijskim1991@gmail.com");
+        simpleMailMessage.setFrom("youremail@domain.com");
         simpleMailMessage.setText(
                 "Thank you for registering. Please click on the below link to activate your account." +
                         "http://localhost:8080/sign-up/confirm?token="
